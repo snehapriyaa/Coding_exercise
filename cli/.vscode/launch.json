@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "--csvFilePath", "${workspaceFolder}\\stock_data.csv",
+                "--sort", "desc",
+                "--stockName", "AAL",
+                "--startDate","2014-02-02",
+                "--endDate","2014-03-07"
+              ]
+        }
+    ]
+}
